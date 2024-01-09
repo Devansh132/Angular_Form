@@ -16,7 +16,6 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'}),   // used to resolve warning  
     AppRoutingModule
   ],
   providers: [],
