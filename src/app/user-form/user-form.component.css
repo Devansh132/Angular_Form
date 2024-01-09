@@ -1,0 +1,55 @@
+.user-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #cac7c7;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #594d76;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #cac7c7;
+  cursor: not-allowed;
+}
+
+/* copy right section styling */
+.copyright-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #cfbebe;
+  border-top: 1px solid black;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
